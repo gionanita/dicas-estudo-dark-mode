@@ -1,0 +1,74 @@
+:root {
+--white: #ffffff;
+    --black: #000000;
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnbg: var(--black); 
+    --btnBorder: var(--black);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnbg: var(--white);
+    --btnBorder: var(--white);
+}
+
+* {
+    font-family: 'Helvetica', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--fontColor);
+    transition: background 0.3s, color 0.3s;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    padding: 20px;
+}
+
+.bloco {
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 15px;
+    position: relative;
+}
+
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--btnbg); 
+    border: 2px solid var(--btnBorder);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.btn img {
+    width: 25px;
+    height: 25px;;
+}
+
+ul {
+    line-height: 1.6;
+}
+
+li {
+    margin-bottom: 15px;
+}
