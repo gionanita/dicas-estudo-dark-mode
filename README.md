@@ -8,4 +8,4 @@ Este projeto é uma lista com dicas de estudo, desenvolvida para testar a implem
 - **UX/UI**: Criar um botão de alternância que muda de cor para manter o contraste.
 
 ## 🚀 Como visualizar
-Basta acessar o link do GitHub Pages (instruções abaixo).
+Basta acessar o link do GitHub Pages!
